@@ -78,11 +78,13 @@ var map;
 
       var rightNow = "";
       var yr = String(today.getFullYear());
-      var mh = String(today.getMonth());
+      var mh = String(today.getMonth()+1);
       var de = String(today.getDate());
       var hr = String(today.getHours());
       var me = String(today.getMinutes());
       rightNow = yr + "年" + mh + "月" + de + "日" + hr + "點" + me + "分";
+
+      console.log(rightNow)
 
       
       var newNote = note.features;
