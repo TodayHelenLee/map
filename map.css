@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#map {
+  float: right;
+  height: 100%;
+  width: 70%;
+}
+#app {
+  float: left;
+  height: 100%;
+  width: 30%;
+}
+.choose {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  float: none;
+  height: 50%;
+  background-color: darkcyan;
+  color: white;
+}
+h1,
+h2,
+select,
+input {
+  display: block;
+  margin: 10px;
+}
+select,
+input {
+  width: 70%;
+  height: 30px;
+  font-size: large;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+}
+h3 {
+  clear: both;
+}
+.masks > div {
+  display: inline;
+  width: 40%;
+  float: left;
+  background-color: lightseagreen;
+  border-radius: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.result {
+  overflow-y: auto;
+}
